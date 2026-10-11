@@ -1,0 +1,101 @@
+{
+    "G-83945": {
+        "id": "G-83945",
+        "messageId": "1525170906861666378",
+        "channelId": "1403586706543874151",
+        "prize": "Test",
+        "winners": 1,
+        "requirements": "1",
+        "entries": [],
+        "endTime": 1783785882809,
+        "paused": false,
+        "ended": true,
+        "winner": []
+    },
+    "G-79145": {
+        "id": "G-79145",
+        "messageId": "1525171081177206835",
+        "channelId": "1403586706543874151",
+        "prize": "Test",
+        "winners": 1,
+        "requirements": "N/A",
+        "entries": [
+            "1133098688693145753"
+        ],
+        "endTime": 1783785924446,
+        "paused": false,
+        "ended": true,
+        "winner": [
+            "1133098688693145753"
+        ]
+    },
+    "G-54567": {
+        "id": "G-54567",
+        "messageId": "1525172222841454756",
+        "channelId": "1403586706543874151",
+        "prize": "Test",
+        "winners": 1,
+        "requirements": "N/A",
+        "entries": [
+            "1133098688693145753"
+        ],
+        "endTime": 1783786343994,
+        "paused": true,
+        "remainingTime": 86375070,
+        "ended": true,
+        "winner": [
+            "1133098688693145753"
+        ]
+    },
+    "G-82047": {
+        "id": "G-82047",
+        "messageId": "1525186509232279655",
+        "channelId": "1403586706543874151",
+        "prize": "Jakes PC",
+        "winners": 1,
+        "requirements": "N/A.",
+        "entries": [
+            "1112893001488941056"
+        ],
+        "endTime": 1783789602805,
+        "paused": false,
+        "ended": true,
+        "winner": [
+            "1112893001488941056"
+        ]
+    },
+    "G-76801": {
+        "id": "G-76801",
+        "messageId": "1533624412044263607",
+        "channelId": "1403586708263538771",
+        "prize": "Jakesrole",
+        "winners": 67,
+        "requirements": "None",
+        "entries": [
+            "1386085337184604301",
+            "1376280550217875508",
+            "1133098688693145753"
+        ],
+        "endTime": 1785718553122,
+        "paused": false,
+        "ended": true,
+        "winner": [
+            "1133098688693145753",
+            "1376280550217875508",
+            "1386085337184604301"
+        ]
+    },
+    "G-62104": {
+        "id": "G-62104",
+        "messageId": "1533624669599698985",
+        "channelId": "1523657775396290570",
+        "prize": "Jake",
+        "winners": 67,
+        "requirements": "None",
+        "entries": [
+            "1133098688693145753"
+        ],
+        "endTime": 1785715074545,
+        "paused": false
+    }
+}
