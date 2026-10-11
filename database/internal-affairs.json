@@ -1,0 +1,27 @@
+{
+    "1493028506718830743": {
+        "question": 2,
+        "answers": [
+            {
+                "question": "What is your Roblox username?",
+                "answer": "6",
+                "responseTime": 5882
+            },
+            {
+                "question": "What is your Discord username?",
+                "answer": "!cancel",
+                "responseTime": null
+            }
+        ],
+        "type": "internal_affairs",
+        "timestamps": {
+            "started": 1785715449390,
+            "questions": [
+                {
+                    "question": 0,
+                    "sent": 1785715449391
+                }
+            ]
+        }
+    }
+}
