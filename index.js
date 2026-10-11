@@ -43,8 +43,16 @@ if (!TOKEN) {
 const loaGameDetector = require("./events/loaGameDetector");
 const wickQuarantine = require("./events/wickQuarantine");
 const config = require("./config.json");
-const CLIENT_ID = config.clientId;
-const GUILD_ID = config.guildId;
+
+// Hosting environment variables override local config; keep secrets out of Git.
+config.erlc = config.erlc || {};
+config.erlc.serverKey = process.env.ERLC_SERVER_KEY || config.erlc.serverKey || "";
+config.erlc.globalKey = process.env.ERLC_GLOBAL_KEY || config.erlc.globalKey || "";
+config.melonlyApiKey = process.env.MELONLY_API_KEY || config.melonlyApiKey || config.melonly?.melonlyApiKey || "";
+if (config.melonly) config.melonly.melonlyApiKey = config.melonlyApiKey;
+
+const CLIENT_ID = process.env.CLIENT_ID || config.clientId;
+const GUILD_ID = process.env.GUILD_ID || config.guildId;
 const COMMAND_LOG_CHANNEL_ID = "1529614403639709696";
 
 async function logCommandUsage({ client, user, guild, commandName, type, args = [], success = true }) {
