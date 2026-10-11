@@ -1,0 +1,65 @@
+{
+  "clientId": "1523685616695378030",
+  "guildId": "1403586702492303370",
+  "sessionMessageId": "",
+  "sessionChannelId": "1403586706011066403",
+  "serverOwner": "Jakester22",
+  "roles": {
+    "highRankStaff": "1403586703716777988",
+    "generalSupport": "1403586702492303377",
+    "internalAffairs": "1403586702492303378",
+    "management": "1523086104193142945",
+    "boardOfDirectors": "1403586703612186670",
+    "sessionPing": "1403586702638973030",
+    "erlcCommandRole1": "1403586703612186670",
+    "erlcCommandRole2": "1522740131738554529"
+  },
+  "channels": {
+    "sessionLogs": "1403586706011066403",
+    "infractionLogs": "1403586711228780631",
+    "promotionLogs": "1403586711228780630",
+    "trainingRequests": "1403639730184261692",
+    "trainingResults": "1523705224135573695",
+    "tickets": {
+      "generalSupport": "1403586713212944447",
+      "internalAffairs": "1403586713212944448",
+      "management": "1403586713212944449",
+      "boardOfDirectors": "1523086583228792902"
+    },
+    "transcripts": {
+      "generalSupport": "1523105644553568357",
+      "internalAffairs": "1523105689181094048",
+      "management": "1523105745112137758",
+      "boardOfDirectors": "1523105784374890628"
+    }
+  },
+  "application": {
+    "applyRole": "1403586703716777988",
+    "applyChannel": "1403586707156369514",
+    "reviewChannel": "1524747747809558669",
+    "reviewRole": "1403586703515582477",
+    "acceptedLogs": "1524747897785024512",
+    "deniedLogs": "1524748026965393430",
+    "acceptedRole": "1403586703146483792"
+  },
+  "internalAffairs": {
+    "acceptedLogs": "1524795433275232368",
+    "deniedLogs": "1524795509410103347",
+    "pendingLogs": "1524795261342322839",
+    "reviewRole": "1526411632136159373",
+    "acceptedRole": "1524812476074561771"
+  },
+  "erlc": {
+    "serverKey": "",
+    "globalKey": "",
+    "managementRole": "1403586703381237969",
+    "liverieChannel": "1526647779617935604",
+    "sessionChannelId": "1527649769638596658"
+  },
+  "melonly": {
+    "melonlyApiKey": ""
+  },
+  "groq": {
+    "apiKey": ""
+  }
+}
