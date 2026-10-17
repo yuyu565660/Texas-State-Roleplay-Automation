@@ -57,7 +57,7 @@ async function alertMember(member, presenceOverride = null) {
         if (alerts.has(gameKey)) continue;
 
         await channel.send({
-            content: "<@&" + ALERT_ROLE_ID + "> <@" + member.id + "> has LOA and playing a game",
+            content: "<@&" + ALERT_ROLE_ID + "> <@" + member.id + "> has LOA and is playing **" + game.name + "**.",
             allowedMentions: {
                 roles: [ALERT_ROLE_ID],
                 users: [member.id]
